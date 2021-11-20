@@ -19,8 +19,8 @@
 
 ``` sh
 $ sudo yum install wget unzip -y
-$ wget https://releases.hashicorp.com/terraform/3.51.0/terraform_3.51.0_linux_amd64.zip
-$ sudo unzip terraform_3.51.0_linux_amd64.zip -d /usr/local/bin/
+$ wget https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_linux_amd64.zip
+$ sudo unzip terraform_1.0.11_linux_amd64.zip -d /usr/local/bin/
 # Export terraform binary path temporally
 $ export PATH=$PATH:/usr/local/bin
 # Add path permanently for current user.By Exporting path in .bashrc file at end of file.
